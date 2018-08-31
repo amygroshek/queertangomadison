@@ -44,7 +44,7 @@ $(document).ready(function() {
                                 '<span class="location">' + el.location + '</span>' +
                                 '<p>' + el.description + '</p>' +
 
-                                '<a class="no-underline near-white bg-animate bg-near-black hover-bg-gray inline-flex items-center ma2 tc br0 pa3" aria-label="Link opens in a new window" target="_blank" style="color:white;" href="' + el.htmlLink + '">View calendar</a></div>';
+                                '<a class="no-underline near-white bg-animate bg-near-black hover-bg-gray inline-flex items-center ma2 tc br0 pa3" aria-label="Link opens in a new window" target="_blank" style="color:white;" href="' + el.htmlLink + '" alt="Go to Google Calendar">View GCal</a></div>';
                     count++;
                 });
             } else {

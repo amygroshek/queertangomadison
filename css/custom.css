@@ -30,3 +30,12 @@ p.flex-child {
     /* flex-grow: 1;*/
     flex-basis: 60%;
 }
+
+.calendar_parent .date,
+.calendar_parent .location {
+    display: block;
+}
+
+main {
+    padding-bottom: 1rem !important;
+}
