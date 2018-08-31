@@ -48,7 +48,7 @@ $(document).ready(function() {
                     count++;
                 });
             } else {
-                markup = '<p>Sorry, no upcoming queer tango events at this time. Contact Amy to add your event or to schedule group or individual lessons.</p><a href="/contact/" class="no-underline near-white bg-animate bg-near-black hover-bg-gray inline-flex items-center ma2 tc br0 pa3" title="Contact">Contact</a>';
+                markup = '<p>Sorry, no upcoming queer tango events at this time. Contact Amy to add your event or to schedule group or individual lessons.</p><a href="/contact/" class="no-underline near-white bg-animate bg-near-black hover-bg-gray inline-flex items-center ma2 tc br0 pa3" style="color:white;" title="Contact">Contact</a>';
             }
             $(calendar_parent).html(markup);
         }).fail(function( jqXHR, textStatus, errorThrown) {
