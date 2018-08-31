@@ -27,12 +27,6 @@
   </url>
   
   <url>
-    <loc>http://queertangomadison.com/social/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://queertangomadison.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
